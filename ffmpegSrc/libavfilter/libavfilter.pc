@@ -1,0 +1,14 @@
+prefix=/usr/local/ffmpeg
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.14.101
+Requires: libswscale >= 4.0.100, libpostproc >= 54.0.100, libavformat >= 57.14.100, libavcodec >= 57.14.100, libswresample >= 2.0.100, libavutil >= 55.5.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter -lxcb -lXau -lXdmcp -lxcb-shm -lxcb -lXau -lXdmcp -lxcb-xfixes -lxcb-render -lxcb-shape -lxcb -lXau -lXdmcp -lxcb-shape -lxcb -lXau -lXdmcp -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -Wl,-rpath,/home/qiang/ffmpeg_install/ffmpeg_build/lib -lSDL -lpthread -lSDL -lpthread -lm -ldl -lpthread -L/usr/local/lib -lx265 -lstdc++ -lm -lrt -ldl -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lx264 -lpthread -lm -ldl -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lvpx -lm -lpthread -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lvpx -lm -lpthread -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lvpx -lm -lpthread -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lvpx -lm -lpthread -lvorbisenc -lvorbis -logg -ltheoraenc -ltheoradec -logg -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lopus -lm -lmp3lame -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lfreetype -lz -lbz2 -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -lfdk-aac -lm -L/home/qiang/ffmpeg_install/ffmpeg_build/lib -L/usr/local/lib -lass -lm -lfribidi -lglib-2.0 -pthread -lrt -lfreetype -lz -lbz2 -lm -lbz2 -lz -pthread -lrt
+Libs.private: 
+Cflags: -I${includedir}
