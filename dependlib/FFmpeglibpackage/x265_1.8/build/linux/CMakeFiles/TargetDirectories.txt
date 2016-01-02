@@ -1,0 +1,7 @@
+/home/qiang/x265_1.8/build/linux/common/CMakeFiles/common.dir
+/home/qiang/x265_1.8/build/linux/encoder/CMakeFiles/encoder.dir
+/home/qiang/x265_1.8/build/linux/CMakeFiles/x265-shared.dir
+/home/qiang/x265_1.8/build/linux/CMakeFiles/x265-static.dir
+/home/qiang/x265_1.8/build/linux/CMakeFiles/cli.dir
+/home/qiang/x265_1.8/build/linux/CMakeFiles/uninstall.dir
+/home/qiang/x265_1.8/build/linux/CMakeFiles/clean-generated.dir

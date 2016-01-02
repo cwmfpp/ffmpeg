@@ -1,0 +1,4 @@
+repo: 09fe40627f03a0f9c3e6ac78b22ac93da23f9fdf
+node: e27327f5da35c5feb660360336fdc94bd0afe719
+branch: stable
+tag: 1.8

@@ -1,0 +1,820 @@
+The system is: Linux - 2.6.32-41-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/qiang/x265_1.8/build/linux/CMakeFiles/3.4.0-rc3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/qiang/x265_1.8/build/linux/CMakeFiles/3.4.0-rc3/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f4b5b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4b5b.dir/build.make CMakeFiles/cmTC_f4b5b.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4b5b.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f4b5b.dir/testCCompiler.c.o   -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f4b5b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4b5b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f4b5b.dir/testCCompiler.c.o  -o cmTC_f4b5b -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf1f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf1f9.dir/build.make CMakeFiles/cmTC_bf1f9.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_bf1f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf1f9.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o  -o cmTC_bf1f9 -rdynamic  
+Using built-in specs.
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) 
+COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf1f9' '-rdynamic' '-mtune=generic' '-march=i486'
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_bf1f9 -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_bf1f9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_bf1f9.dir/build.make CMakeFiles/cmTC_bf1f9.dir/build]
+  ignore line: [make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o   -c /usr/local/share/cmake-3.4/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_bf1f9]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf1f9.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o  -o cmTC_bf1f9 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i486-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf1f9' '-rdynamic' '-mtune=generic' '-march=i486']
+  link line: [ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_bf1f9 -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bf1f9] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..]
+    arg [-L/usr/lib/i486-linux-gnu] ==> dir [/usr/lib/i486-linux-gnu]
+    arg [CMakeFiles/cmTC_bf1f9.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/i486-linux-gnu] ==> [/usr/lib/i486-linux-gnu]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i486-linux-gnu/4.4.3;/usr/lib;/lib;/usr/lib/i486-linux-gnu]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e38a5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e38a5.dir/build.make CMakeFiles/cmTC_e38a5.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e38a5.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_e38a5.dir/feature_tests.c.o   -c /home/qiang/x265_1.8/build/linux/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e38a5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e38a5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_e38a5.dir/feature_tests.c.o  -o cmTC_e38a5 -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c89] compiler features compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_63bed/fast"
+/usr/bin/make -f CMakeFiles/cmTC_63bed.dir/build.make CMakeFiles/cmTC_63bed.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63bed.dir/feature_tests.c.o
+/usr/bin/cc    -std=c89 -o CMakeFiles/cmTC_63bed.dir/feature_tests.c.o   -c /home/qiang/x265_1.8/build/linux/CMakeFiles/feature_tests.c
+Linking C executable cmTC_63bed
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63bed.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_63bed.dir/feature_tests.c.o  -o cmTC_63bed -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8514f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8514f.dir/build.make CMakeFiles/cmTC_8514f.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8514f.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_8514f.dir/testCXXCompiler.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8514f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8514f.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_8514f.dir/testCXXCompiler.cxx.o  -o cmTC_8514f -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c262e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c262e.dir/build.make CMakeFiles/cmTC_c262e.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c262e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c262e.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c262e -rdynamic  
+Using built-in specs.
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) 
+COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c262e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i486'
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c262e -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c262e/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c262e.dir/build.make CMakeFiles/cmTC_c262e.dir/build]
+  ignore line: [make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.4/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c262e]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c262e.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c262e -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i486-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c262e' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i486']
+  link line: [ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c262e -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c262e] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..]
+    arg [-L/usr/lib/i486-linux-gnu] ==> dir [/usr/lib/i486-linux-gnu]
+    arg [CMakeFiles/cmTC_c262e.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/i486-linux-gnu] ==> [/usr/lib/i486-linux-gnu]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i486-linux-gnu/4.4.3;/usr/lib;/lib;/usr/lib/i486-linux-gnu]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++0x] compiler features compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c2f39/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2f39.dir/build.make CMakeFiles/cmTC_c2f39.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2f39.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++0x -o CMakeFiles/cmTC_c2f39.dir/feature_tests.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c2f39
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2f39.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c2f39.dir/feature_tests.cxx.o  -o cmTC_c2f39 -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ba467/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ba467.dir/build.make CMakeFiles/cmTC_ba467.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ba467.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_ba467.dir/feature_tests.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ba467
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba467.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_ba467.dir/feature_tests.cxx.o  -o cmTC_ba467 -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21166/fast"
+/usr/bin/make -f CMakeFiles/cmTC_21166.dir/build.make CMakeFiles/cmTC_21166.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21166.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_21166.dir/CheckIncludeFiles.c.o   -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_21166
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21166.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_21166.dir/CheckIncludeFiles.c.o  -o cmTC_21166 -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test CC_HAS_NO_STRICT_OVERFLOW succeded with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a14b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a14b.dir/build.make CMakeFiles/cmTC_9a14b.dir/build
+make[1]: Entering directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a14b.dir/src.cxx.o
+/usr/bin/c++     -DCC_HAS_NO_STRICT_OVERFLOW   -Wno-strict-overflow -o CMakeFiles/cmTC_9a14b.dir/src.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9a14b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a14b.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_STRICT_OVERFLOW    CMakeFiles/cmTC_9a14b.dir/src.cxx.o  -o cmTC_9a14b -rdynamic 
+make[1]: Leaving directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_NO_NARROWING succeded with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f061/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f061.dir/build.make CMakeFiles/cmTC_6f061.dir/build
+make[1]: Entering directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6f061.dir/src.cxx.o
+/usr/bin/c++     -DCC_HAS_NO_NARROWING   -Wno-narrowing -o CMakeFiles/cmTC_6f061.dir/src.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6f061
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f061.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_NARROWING    CMakeFiles/cmTC_6f061.dir/src.cxx.o  -o cmTC_6f061 -rdynamic 
+make[1]: Leaving directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_NO_ARRAY_BOUNDS succeded with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3cfb9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3cfb9.dir/build.make CMakeFiles/cmTC_3cfb9.dir/build
+make[1]: Entering directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3cfb9.dir/src.cxx.o
+/usr/bin/c++     -DCC_HAS_NO_ARRAY_BOUNDS   -Wno-array-bounds -o CMakeFiles/cmTC_3cfb9.dir/src.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3cfb9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3cfb9.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_NO_ARRAY_BOUNDS    CMakeFiles/cmTC_3cfb9.dir/src.cxx.o  -o cmTC_3cfb9 -rdynamic 
+make[1]: Leaving directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_FAST_MATH succeded with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38381/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38381.dir/build.make CMakeFiles/cmTC_38381.dir/build
+make[1]: Entering directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38381.dir/src.cxx.o
+/usr/bin/c++     -DCC_HAS_FAST_MATH   -ffast-math -o CMakeFiles/cmTC_38381.dir/src.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_38381
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38381.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FAST_MATH    CMakeFiles/cmTC_38381.dir/src.cxx.o  -o cmTC_38381 -rdynamic 
+make[1]: Leaving directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_STACK_REALIGN succeded with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd949/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd949.dir/build.make CMakeFiles/cmTC_fd949.dir/build
+make[1]: Entering directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd949.dir/src.cxx.o
+/usr/bin/c++     -DCC_HAS_STACK_REALIGN   -mstackrealign -o CMakeFiles/cmTC_fd949.dir/src.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_fd949
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd949.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_STACK_REALIGN    CMakeFiles/cmTC_fd949.dir/src.cxx.o  -o cmTC_fd949 -rdynamic 
+make[1]: Leaving directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CC_HAS_FNO_EXCEPTIONS_FLAG succeded with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0f387/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0f387.dir/build.make CMakeFiles/cmTC_0f387.dir/build
+make[1]: Entering directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0f387.dir/src.cxx.o
+/usr/bin/c++     -DCC_HAS_FNO_EXCEPTIONS_FLAG   -fno-exceptions -o CMakeFiles/cmTC_0f387.dir/src.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0f387
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f387.dir/link.txt --verbose=1
+/usr/bin/c++    -DCC_HAS_FNO_EXCEPTIONS_FLAG    CMakeFiles/cmTC_0f387.dir/src.cxx.o  -o cmTC_0f387 -rdynamic 
+make[1]: Leaving directory `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the strtok_r exist passed with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a8d83/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a8d83.dir/build.make CMakeFiles/cmTC_a8d83.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a8d83.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a8d83.dir/CheckSymbolExists.c.o   -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a8d83
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8d83.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a8d83.dir/CheckSymbolExists.c.o  -o cmTC_a8d83 -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+File /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if files getopt.h exist passed with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a1eac/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a1eac.dir/build.make CMakeFiles/cmTC_a1eac.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a1eac.dir/CheckIncludeFiles.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_a1eac.dir/CheckIncludeFiles.c.o   -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_a1eac
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1eac.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_a1eac.dir/CheckIncludeFiles.c.o  -o cmTC_a1eac -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+The system is: Linux - 2.6.32-41-generic - i686
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/qiang/x265_1.8/build/linux/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+CMakeCXXCompilerId.cpp:73: warning: deprecated conversion from string constant to ‘char*’
+CMakeCXXCompilerId.cpp:163: warning: deprecated conversion from string constant to ‘char*’
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/qiang/x265_1.8/build/linux/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o   -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.o  -o cmTryCompileExec -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/cc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) 
+COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i486'
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc       -v CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i486-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-mtune=generic' '-march=i486']
+  link line: [ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..]
+    arg [-L/usr/lib/i486-linux-gnu] ==> dir [/usr/lib/i486-linux-gnu]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> [/usr/lib]
+  collapse dir [/usr/lib/i486-linux-gnu] ==> [/usr/lib/i486-linux-gnu]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/i486-linux-gnu/4.4.3;/usr/lib;/lib;/usr/lib/i486-linux-gnu]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o -c /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++         CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec -rdynamic 
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  
+Using built-in specs.
+Target: i486-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu
+Thread model: posix
+gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) 
+COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i486'
+ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o
+make[1]:正在离开目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build]
+  ignore line: [make[1]: 正在进入目录 `/home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/qiang/x265_1.8/build/linux/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [Target: i486-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 4.4.3-4ubuntu5.1' --with-bugurl=file:///usr/share/doc/gcc-4.4/README.Bugs --enable-languages=c,c++,fortran,objc,obj-c++ --prefix=/usr --enable-shared --enable-multiarch --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.4 --program-suffix=-4.4 --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-plugin --enable-objc-gc --enable-targets=all --disable-werror --with-arch-32=i486 --with-tune=generic --enable-checking=release --build=i486-linux-gnu --host=i486-linux-gnu --target=i486-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.4.3 (Ubuntu 4.4.3-4ubuntu5.1) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../:/lib/:/usr/lib/:/usr/lib/i486-linux-gnu/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i486']
+  link line: [ /usr/lib/gcc/i486-linux-gnu/4.4.3/collect2 --build-id --eh-frame-hdr -m elf_i386 --hash-style=both -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTryCompileExec -z relro /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o /usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3 -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../.. -L/usr/lib/i486-linux-gnu CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o /usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_i386] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crti.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..]
+    arg [-L/usr/lib/i486-linux-gnu] ==> dir [/usr/lib/i486-linux-gnu]
+    arg [CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3] ==> [/usr/lib/gcc/i486-linux-gnu/4.4.3]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/i486-linux-gnu/4.4.3/../../..] ==> [/usr/lib]
+  collapse dir [/usr/lib/i486-linux-gnu] ==> [/usr/lib/i486-linux-gnu]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/i486-linux-gnu/4.4.3;/usr/lib;/lib;/usr/lib/i486-linux-gnu]
+
+
